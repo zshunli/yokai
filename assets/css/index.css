@@ -1,27 +1,61 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: content-box;
-    font-family: '微軟正黑體';
+.bigpic {
+    background: url(../img/bg001.jpg) no-repeat;
+    width: 100%;
+    height: 0;
+    padding-bottom: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-header {
-    width: 100%;
-    height: 100px;
+h2 {
     text-align: center;
-    line-height: 100px;
-    background-color: #000;
-    color: #fff;
 }
 
-main {
-    height: 100%;
+h2 span {
+    text-decoration: underline #7B9EA8 5px;
 }
 
-footer {
-    width: 100%;
+.diffent table {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 20px;
+}
+
+.diffent td{
+    width: 400px;
+}
+
+.diffent th {
+    text-align: center;
+}
+
+.diffent tr:nth-child(2) td:nth-child(1) {
+    text-align: center;
+}
+
+.diffent tr:nth-child(3) {
+    text-align: center;
+}
+
+.diffent tr:nth-child(3) img {
+    width: 300px;
+}
+
+.class table {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing:0px 30px;
+}
+
+.class td {
+    font-size: 26px;
+    border: 1px solid #fff;
+}
+
+.class td:nth-child(1) {
+    background-color: #7B9EA8;
+    width: 200px;
     height: 50px;
     text-align: center;
-    background-color: #000;
-    color: #fff;
 }

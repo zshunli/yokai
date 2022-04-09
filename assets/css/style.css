@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: '微軟正黑體';
+}
+
+body {
+    background-color: #f4eac6;
+}
+
+header .container {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+}
+
+.container span {
+    font-size: 24px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar .item span {
+    padding: 10px 30px;
+    border-bottom: 5px solid transparent;
+    transition: .3s;
+}
+
+.navbar .item span:hover {
+    border-bottom: 5px solid #120309;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
