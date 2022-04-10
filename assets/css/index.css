@@ -58,4 +58,9 @@ h2 span {
     width: 200px;
     height: 50px;
     text-align: center;
+    opacity: .8;
+}
+
+.class td:nth-child(1):hover {
+    opacity: 1;
 }
