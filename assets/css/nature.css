@@ -1,0 +1,40 @@
+.explain {
+    text-align: center;
+    margin: 50px;
+}
+
+.explain p {
+    font-size: 28px;
+}
+
+.explain p span {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.contain {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.text {
+    width: 1000px;
+    margin: 0 10px;
+}
+
+.text h1 span, .text2 h1 span {
+    font-size: 2em;
+    background-color: #638C80;
+    color: #f4eac6;
+}
+
+.text p, .text2 p {
+    font-size: 20px;
+}
+
+.text2 {
+    width: 400px;
+    margin: 0 10px;
+}
