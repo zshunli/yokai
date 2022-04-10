@@ -1,0 +1,19 @@
+.tle h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.book {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.book:nth-child(2) {
+    align-items: center;
+}
+
+.text {
+    width: 900px;
+}
