@@ -1,0 +1,37 @@
+.explain {
+    text-align: center;
+    margin: 50px;
+}
+
+.explain p {
+    font-size: 28px;
+}
+
+.explain p span {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.pic img {
+    width: 355px;
+}
+
+.text {
+    width: 800px;
+    margin: 0 20px;
+}
+
+.text h1 {
+    font-size: 2em;
+}
+
+.text p {
+    font-size: 20px;
+}
